@@ -4,7 +4,7 @@ import chromadb
 
 MODEL_NAME = "paraphrase-multilingual-MiniLM-L12-v2"
 
-def decouper(texte, taille=30, chevauchement=8):
+def decouper(texte, taille=60, chevauchement=15):
     mots = texte.split()
     morceaux, debut = [], 0
     while debut < len(mots):

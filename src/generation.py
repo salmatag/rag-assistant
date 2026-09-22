@@ -24,7 +24,7 @@ def _groq(prompt):
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": prompt},
         ],
-        temperature=0.2,
+        temperature=0,
     )
     return reponse.choices[0].message.content
 
@@ -37,6 +37,7 @@ def _ollama(prompt, model="llama3.2:1b"):
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": prompt},
         ],
+        options={"temperature": 0},
     )
     return reponse["message"]["content"]
 
