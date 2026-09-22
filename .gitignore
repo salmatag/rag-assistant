@@ -1,0 +1,29 @@
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets (clés API)
+.env
+*.env
+
+# Données et modèles (fichiers volumineux)
+data/
+models/
+*.faiss
+*.index
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
