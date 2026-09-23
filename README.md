@@ -1,3 +1,4 @@
+![CI](https://github.com/salmatag/rag-assistant/actions/workflows/ci.yml/badge.svg)
 # RAG Assistant
 
 Assistant de recherche documentaire (RAG) : répond à des questions à partir de
