@@ -6,3 +6,5 @@ chromadb>=0.5
 groq>=0.9
 ollama>=0.3
 python-dotenv>=1.0
+fastapi>=0.115
+uvicorn[standard]>=0.30
