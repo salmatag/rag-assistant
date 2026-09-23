@@ -16,7 +16,7 @@ __pycache__/
 *.env
 
 # Données et modèles (fichiers volumineux)
-data/
+data/chroma/
 models/
 *.faiss
 *.index

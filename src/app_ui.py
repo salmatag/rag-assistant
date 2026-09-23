@@ -41,4 +41,4 @@ demo = gr.Interface(
     description="Pose une question sur les documents fournis.",
 )
 
-demo.launch()
+demo.launch(server_name="0.0.0.0", server_port=7860)

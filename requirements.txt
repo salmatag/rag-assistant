@@ -9,3 +9,5 @@ python-dotenv>=1.0
 fastapi>=0.115
 uvicorn[standard]>=0.30
 gradio>=4.44
+pytest>=8
+pypdf>=5
