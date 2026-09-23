@@ -1,5 +1,9 @@
 ![CI](https://github.com/salmatag/rag-assistant/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/salmatag/rag-assistant/actions/workflows/ci.yml/badge.svg)
+
 # RAG Assistant
+
+**Demo en ligne :** https://rag-assistant-py3t.onrender.com
 
 Assistant de recherche documentaire (RAG) : répond à des questions à partir de
 **documents fournis**, avec **citations des sources**, et **mesure** la qualité du retrieval
