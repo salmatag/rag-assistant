@@ -1,0 +1,6 @@
+gradio>=4.44
+groq>=0.9
+python-dotenv>=1.0
+scikit-learn>=1.4
+pypdf>=5
+numpy>=1.26
